@@ -1,0 +1,27 @@
+.Experience_container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    
+}
+
+.header{
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+.experience_list{
+    margin-top:37px;
+    margin-left: 81px;
+    display: grid;
+}

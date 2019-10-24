@@ -1,0 +1,23 @@
+.skill_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.progress_bar{
+    width: 291px;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.progress_fill{
+    height: 5px;
+    box-sizing: border-box;
+    background-color: #27AAE1;
+}

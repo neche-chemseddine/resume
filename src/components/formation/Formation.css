@@ -1,0 +1,13 @@
+.diploma_container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.diploma_list{
+    margin-top:37px;
+    margin-left: 81px;
+    display: grid;
+}

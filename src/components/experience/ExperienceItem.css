@@ -1,0 +1,101 @@
+.experienceItem{
+    display: grid;
+    grid-template-columns: 130px 100px 516px; 
+
+
+}
+p.etablisement{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+p.post{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+p.duration{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #8C898A;
+}
+div.description{
+    grid-column: 3;
+}
+p.location{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #8C898A;
+
+}
+p.description{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+color: #373536;
+padding-left:10px;
+}
+p.tech_header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+p.techs{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 10px;
+    
+    color: #373536;
+    
+}
+.marginTimeline{
+    margin-bottom: 50px;
+}
+.timeline{
+    width:6px; 
+    height: 100%;
+    background-color: #00AEEF;
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+    margin-top:15px;
+
+}
+.time_line_pin{
+    background-color: #00AEEF;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    left: -5px;
+    top: -1px;
+   
+}
