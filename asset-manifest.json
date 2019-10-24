@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/neche-chemseddine/resume/static/css/main.a4b7a6f0.chunk.css",
+    "main.js": "/neche-chemseddine/resume/static/js/main.2a3972ba.chunk.js",
+    "main.js.map": "/neche-chemseddine/resume/static/js/main.2a3972ba.chunk.js.map",
+    "runtime-main.js": "/neche-chemseddine/resume/static/js/runtime-main.c8068af8.js",
+    "runtime-main.js.map": "/neche-chemseddine/resume/static/js/runtime-main.c8068af8.js.map",
+    "static/js/2.8dab6c7a.chunk.js": "/neche-chemseddine/resume/static/js/2.8dab6c7a.chunk.js",
+    "static/js/2.8dab6c7a.chunk.js.map": "/neche-chemseddine/resume/static/js/2.8dab6c7a.chunk.js.map",
+    "index.html": "/neche-chemseddine/resume/index.html",
+    "precache-manifest.12b8de7a5e1bc5a8e16353730bf90c4a.js": "/neche-chemseddine/resume/precache-manifest.12b8de7a5e1bc5a8e16353730bf90c4a.js",
+    "service-worker.js": "/neche-chemseddine/resume/service-worker.js",
+    "static/css/main.a4b7a6f0.chunk.css.map": "/neche-chemseddine/resume/static/css/main.a4b7a6f0.chunk.css.map",
+    "static/media/calander.svg": "/neche-chemseddine/resume/static/media/calander.76af4891.svg",
+    "static/media/email.svg": "/neche-chemseddine/resume/static/media/email.85188068.svg",
+    "static/media/linkedin-logo.svg": "/neche-chemseddine/resume/static/media/linkedin-logo.e2a3ff32.svg",
+    "static/media/location.svg": "/neche-chemseddine/resume/static/media/location.e5be3d53.svg",
+    "static/media/SideBar.css": "/neche-chemseddine/resume/static/media/my_pic.33cbd396.jpg",
+    "static/media/phone.svg": "/neche-chemseddine/resume/static/media/phone.c2adf7c9.svg",
+    "static/media/researchgate-logo.svg": "/neche-chemseddine/resume/static/media/researchgate-logo.92d09f54.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8068af8.js",
+    "static/js/2.8dab6c7a.chunk.js",
+    "static/css/main.a4b7a6f0.chunk.css",
+    "static/js/main.2a3972ba.chunk.js"
+  ]
+}
