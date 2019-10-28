@@ -21,3 +21,15 @@
     box-sizing: border-box;
     background-color: #27AAE1;
 }
+
+@media screen and (max-width:500px){
+    .skill_item_container{
+        width: 100%;
+
+    }
+    .progress_bar{
+        width: 100%;
+    }
+  
+    
+}

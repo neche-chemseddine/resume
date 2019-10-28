@@ -10,7 +10,7 @@ export default function Skill(props) {
     })
 
     return (
-        <div>
+        <div className="skill_item_container">
             <h1 className="skill_name">{props.skill_name}</h1>
             <div className="progress_bar">
                 <animated.div className="progress_bar progress_fill" style={progress_bar_animation}></animated.div>

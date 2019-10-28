@@ -98,7 +98,6 @@ h1.skill_name{
     display: grid;
     align-items: center;
     justify-items: center;
-    flex-flow: column;
     gap:15px;
     margin-top: 10px;
 
@@ -127,6 +126,13 @@ h1.skill_name{
     color: #FFFFFF;
 }
 @media screen and  (max-width: 500px){
+    .Skills{
+ 
+        margin:10px 20px 0px 20px;
+    
+    }
+    .SideBar::-webkit-scrollbar { width: 0 !important }
+    .SideBar { overflow: -moz-scrollbars-none; }
     .mobileNav{
         padding: 5px 10px;
         z-index: 400;
