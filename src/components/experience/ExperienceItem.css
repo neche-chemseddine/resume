@@ -77,7 +77,7 @@ p.techs{
 .marginTimeline{
     margin-bottom: 50px;
 }
-.timeline{
+.timeline_exp{
     width:6px; 
     height: 100%;
     background-color: #00AEEF;
@@ -89,7 +89,7 @@ p.techs{
     margin-top:15px;
 
 }
-.time_line_pin{
+.time_line_pin_exp{
     background-color: #00AEEF;
     border-radius: 50%;
     height: 16px;
@@ -98,4 +98,120 @@ p.techs{
     left: -5px;
     top: -1px;
    
+}
+
+
+@media screen and (max-width:500px){
+    p.techs{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        padding-left: 10px;
+        
+        color: #373536;
+        
+    }
+    .experienceItem{
+        display: grid;
+        justify-self: center;
+        grid-template-columns: 75px 10px 210px; 
+        column-gap: 3px;
+    
+    }
+    p.etablisement{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    p.post{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        
+    
+    }
+    
+    p.duration{
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    div.description{
+        grid-column: 3;
+    }
+    p.location{
+    
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    p.tech_header{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    p.techs{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+
+        
+        text-indent: 10px;
+        
+        
+    }
+    .marginTimeline{
+        margin-bottom: 20px;
+    }
+    .timeline_exp{
+        width:2px; 
+        height: 100%;
+        background-color: #00AEEF;
+        grid-row: 1/3;
+        grid-column: 2;
+        justify-self: center;
+        align-self: center;
+        box-sizing: border-box;
+        margin-top:15px;
+    
+    }
+    .time_line_pin_exp{
+        background-color: #00AEEF;
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+        position: relative;
+        left: -4px;
+        top: -5px;
+       
+    }
+
+    p.description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-indent: 10px;
+    }  
+    
+    
 }

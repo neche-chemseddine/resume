@@ -13,6 +13,7 @@ body, html,#root,.App {
   display: grid;
   grid-template-rows: 140px 1fr;
   grid-template-columns: 396px 1fr;
+ 
 }
 
 
@@ -22,4 +23,24 @@ body, html,#root,.App {
   padding-top:81px ;
   overflow: hidden;
   box-sizing: border-box;
+}
+
+@media screen and  (max-width: 500px){
+  .App{
+    display: block;
+    height:100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    scroll-snap-type: y proximity;
+  }
+  .snap-scroll{
+    scroll-snap-align: start end;
+    scroll-margin-top:110px;
+  }
+  .snap-top-mob_nav{
+    scroll-snap-align: start end;
+    scroll-margin-top:76px;
+  }
+
 }

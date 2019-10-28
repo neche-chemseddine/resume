@@ -7,8 +7,8 @@ export default function experienceItem(props) {
     return (
         <div className="experienceItem">
             <p className="post">{props.post}</p>
-            <div className="timeline" style={props.last_item ? time_line : null}>
-                <div className="time_line_pin" ></div>
+            <div className="timeline_exp" style={props.last_item ? time_line : null}>
+                <div className="time_line_pin_exp" ></div>
             </div>
             <p className="etablisement">{props.etablisement}</p>
             <p className="duration">{props.duration_from} <br /> {props.duration_to}</p>
