@@ -12,8 +12,8 @@ export default function Nav() {
     return (
         <div className="nav">
             <div className="navGrid">
-                <Link to="/" className={getselected(1)} onClick={() => setSelected(true)} > Experiences</Link>
-                <Link to="/formations" className={getselected(2)} onClick={() => setSelected(false)}> Diplomes et formations</Link>
+                <Link to="/" className={getselected(1)} onClick={() => setSelected(true)} > Expériences</Link>
+                <Link to="/formations" className={getselected(2)} onClick={() => setSelected(false)}> Diplômes et formations</Link>
             </div>
 
         </div>

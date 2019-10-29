@@ -17,7 +17,7 @@ export default function Formation(props) {
     return (
 
         <div className="diploma_container snap-scroll snap-top-mob_nav">
-            {props.isDesktop == false && <p className="Header">Diplôme et formation</p>}
+            {props.isDesktop == false && <p className="Header">Diplômes et formations</p>}
             {props.isDesktop == false && <div className="HorizontalLine"></div>}
             <div className="diploma_list">
                 {formation}

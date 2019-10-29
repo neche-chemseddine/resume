@@ -63,7 +63,7 @@ export default function SideBar(props) {
 
                 </div>
                 <div className="Container">
-                    <p className="Header">Languages</p>
+                    <p className="Header">langues</p>
                     <div className="HorizontalLine"></div>
                     <div className="Skills">
                         <Skill skill_name="Français" level="90" />
