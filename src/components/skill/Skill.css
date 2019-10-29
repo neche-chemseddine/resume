@@ -22,7 +22,7 @@
     background-color: #27AAE1;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .skill_item_container{
         width: 100%;
 

@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 2;
     background-color: #241F27;
-    width: 396px;
+    width: 340px;
     height:100vh;
     padding:5px 20px 5px 10px;
     box-sizing: border-box;
@@ -125,7 +125,7 @@ h1.skill_name{
     font-size: 16px;
     color: #FFFFFF;
 }
-@media screen and  (max-width: 500px){
+@media screen and  (max-width: 768px){
     .Skills{
  
         margin:10px 20px 0px 20px;

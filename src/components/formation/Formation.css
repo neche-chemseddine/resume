@@ -1,5 +1,5 @@
 .diploma_container{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,11 +7,11 @@
 }
 
 .diploma_list{
-    margin-top:37px;
-    margin-left: 81px;
+    /* margin-top:37px;
+    margin-left: 81px; */
     display: grid;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .diploma_container{
         z-index: 300;
         padding: 5px 10px;

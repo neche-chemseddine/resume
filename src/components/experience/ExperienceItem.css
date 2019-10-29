@@ -1,6 +1,6 @@
 .experienceItem{
     display: grid;
-    grid-template-columns: 130px 100px 516px; 
+    grid-template-columns: 130px 40px 400px; 
 
 
 }
@@ -101,7 +101,7 @@ p.techs{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     p.techs{
         font-family: Roboto;
         font-style: normal;
