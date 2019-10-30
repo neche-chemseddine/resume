@@ -16,11 +16,11 @@ export default function SideBar(props) {
             <div className="Pic" ></div>
             <h1 id="Name">Chems eddine NECHE</h1>
             <div className="Informations">
-                <img src={email} id="mail_icon" className="InfoIcons" />
+                <img src={email} id="mail_icon" alt="mail_icon" className="InfoIcons" />
                 <p className="InfoText">neche.chemseddine@gmail.com</p>
-                <img src={location} id="location_icon" />
+                <img src={location} id="location_icon" alt="location_icon" className="InfoIcons" />
                 <p className="InfoText">54000 Nancy, France</p>
-                <img src={calander} id="calander_icon" />
+                <img src={calander} id="calander_icon" alt="calander_icon" className="InfoIcons" />
                 <p className="InfoText">25 ans</p>
             </div>
         </React.Fragment>
@@ -29,11 +29,11 @@ export default function SideBar(props) {
             <div className="Pic" ></div>
             <h1 id="Name">Chems eddine NECHE</h1>
             <div className="Informations">
-                <img src={email} id="mail_icon" className="InfoIcons" />
+                <img src={email} id="mail_icon" alt="mail_icon" className="InfoIcons" />
                 <p className="InfoText">neche.chemseddine@gmail.com</p>
-                <img src={location} id="location_icon" />
+                <img src={location} id="location_icon" alt="location_icon" className="InfoIcons" />
                 <p className="InfoText">54000 Nancy, France</p>
-                <img src={calander} id="calander_icon" />
+                <img src={calander} id="calander_icon" alt="calander_icon" className="InfoIcons" />
                 <p className="InfoText">25 ans</p>
 
             </div>

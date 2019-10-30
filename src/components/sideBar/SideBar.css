@@ -61,12 +61,14 @@ h1.skill_name{
     display: grid;    
     grid-template-columns:     20px auto; 
     gap:5px;    
-       
-    justify-content: cente    r;
+    justify-content: center;
+    align-items: stretch;
+    height: 100px;
 }    
     
 .InfoIcons{    
-    color:#FFFFFF;    
+    color:#FFFFFF;
+    align-self: center; 
 }    
     
 .InfoText{    
