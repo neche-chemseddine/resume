@@ -6,18 +6,14 @@ import { Route, Switch } from 'react-router-dom'
 import Experience from './components/experience/Experience'
 import Formation from './components/formation/Formation';
 
-import { useContext } from 'react'
 import { __RouterContext } from 'react-router-dom'
 
-import { useTransition, animated } from 'react-spring'
+import { animated } from 'react-spring'
 
 function App() {
 
-  const { location } = useContext(__RouterContext)
   let mobile_width = 768;
-  let [isDesktop, setisDesktop] = useState(window.innerWidth > mobile_width)
-
-  let [width, setWidth] = useState(window.innerWidth)
+  let [isDesktop, setisDesktop] = useState(window.innerWidth > mobile_width);
   window.addEventListener('resize', () => {
     setisDesktop(window.innerWidth > mobile_width);
   })
@@ -39,20 +35,9 @@ function App() {
       }
     }
   }
-  // window.addEventListener("scroll", handel_nav)
-  // const transitions = useTransition(location, location => location.pathname, {
-  //   initial: { opacity: 1, transform: 'translate3d(0%,0,0)' },
-  //   from: { opacity: 0, transform: 'translate3d(100%,0,0)' },
-  //   enter: { opacity: 1, transform: 'translate3d(0%,0,0)' },
-  //   leave: { opacity: 0, transform: 'translate3d(-50%,0,0)' },
-  // })
 
   if (isDesktop) {
-    const main_content = // transitions.map(({ item, props, key }) => (
-
-
-      // <animated.div key={key} style={props}>
-      //   <Switch location={item}>
+    const main_content =
       <animated.div >
         <Switch >
           <Route exact path="/" component={Experience} />
@@ -60,9 +45,6 @@ function App() {
           <Route component={Experience} />
         </Switch>
       </animated.div>
-
-    // ))
-
 
     return (
 
