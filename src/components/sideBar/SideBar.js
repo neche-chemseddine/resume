@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './SideBar.css'
 import calander from '../../icons/calander.svg'
 import location from '../../icons/location.svg'
@@ -6,11 +6,16 @@ import email from '../../icons/email.svg'
 import linkedIn from '../../icons/linkedin-logo.svg'
 import researchGate from '../../icons/researchgate-logo.svg'
 import phone from '../../icons/phone.svg'
-
+import { useSpring, animated, config } from "react-spring"
 import Skill from '../skill/Skill'
 export default function SideBar(props) {
     let header;
     // adding scroll event listener
+    const anim_style = useSpring({ height: props.isMiniNav ? '76px' : '110px', config: { tension: 410, friction: 20 } })
+    useEffect(() => {
+        console.log(props.isMiniNav);
+
+    })
     if (props.isDesktop) {
         header = <React.Fragment>
             <div className="Pic" ></div>
@@ -25,19 +30,19 @@ export default function SideBar(props) {
             </div>
         </React.Fragment>
     } else {
-        header = <div className="mobileNav">
-            <div className="Pic" ></div>
-            <h1 id="Name">Chems eddine NECHE</h1>
-            <div className="Informations">
-                <img src={email} id="mail_icon" alt="mail_icon" className="InfoIcons" />
-                <p className="InfoText">neche.chemseddine@gmail.com</p>
-                <img src={location} id="location_icon" alt="location_icon" className="InfoIcons" />
-                <p className="InfoText">54000 Nancy, France</p>
-                <img src={calander} id="calander_icon" alt="calander_icon" className="InfoIcons" />
-                <p className="InfoText">25 ans</p>
-
-            </div>
-        </div>
+        header =
+            <animated.div className="mobileNav" style={anim_style}>
+                <div className="Pic" ></div>
+                <h1 id="Name">Chems eddine NECHE</h1>
+                <div className="Informations">
+                    <img src={email} id="mail_icon" alt="mail_icon" className="InfoIcons" />
+                    <p className="InfoText">neche.chemseddine@gmail.com</p>
+                    <img src={location} id="location_icon" alt="location_icon" className="InfoIcons" />
+                    <p className="InfoText">54000 Nancy, France</p>
+                    <img src={calander} id="calander_icon" alt="calander_icon" className="InfoIcons" />
+                    <p className="InfoText">25 ans</p>
+                </div>
+            </animated.div>
 
     }
     return (

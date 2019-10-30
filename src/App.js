@@ -14,12 +14,13 @@ function App() {
 
   let mobile_width = 768;
   let [isDesktop, setisDesktop] = useState(window.innerWidth > mobile_width);
+  let [isMiniNav, setIsMiniNav] = useState(false);
   window.addEventListener('resize', () => {
     setisDesktop(window.innerWidth > mobile_width);
   })
   const handel_nav = () => {
     const distanceY = document.getElementsByClassName("App")[0].scrollTop,
-      shrinkOn = 100,
+      shrinkOn = 500,
       headerEl = document.getElementsByClassName("mobileNav")[0];
 
     console.log(distanceY);
@@ -27,10 +28,11 @@ function App() {
 
     if (isDesktop == false) {
 
-
       if (distanceY > shrinkOn) {
+        setIsMiniNav(true)
         headerEl.classList.add("mini_nav");
       } else {
+        setIsMiniNav(false)
         headerEl.classList.remove("mini_nav");
       }
     }
@@ -64,7 +66,7 @@ function App() {
   } else {
     return (
       <div className="App" onScroll={handel_nav}>
-        <SideBar isDesktop={isDesktop} >
+        <SideBar isDesktop={isDesktop} isMiniNav={isMiniNav} >
         </SideBar>
         <Experience isDesktop={isDesktop}>
         </Experience>
