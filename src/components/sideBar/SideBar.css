@@ -22,11 +22,11 @@
     height: 230px;
     border-radius: 50%;
     background-color: aliceblue;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-image: url('../../icons/my_pic.jpg');
-    background-size: 120%;
-    background-position-y: -60px;
-    background-position-x: -30px;
+    background-size: 75%;
+    background-position-y: -30px;
+    background-position-x: 26px;
     gap: 44px;
 }
 
@@ -197,12 +197,11 @@ h1.skill_name{
         align-self: center;
 
         border-radius: 50%;
-        background-color: aliceblue;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-image: url('../../icons/my_pic.jpg');
-        background-size: 120%;
-        background-position-y: -35px;
-        background-position-x: -18px;
+        background-size: 75%;
+        background-position-y: -14px;
+        background-position-x: 14px;
     
     }
     .Informations{
