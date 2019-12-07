@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.e680e063.chunk.css",
+    "main.css": "/resume/static/css/main.0aba28bb.chunk.css",
     "main.js": "/resume/static/js/main.4bdb04c0.chunk.js",
     "main.js.map": "/resume/static/js/main.4bdb04c0.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.914ebca8.js",
@@ -8,9 +8,9 @@
     "static/js/2.13d7ad18.chunk.js": "/resume/static/js/2.13d7ad18.chunk.js",
     "static/js/2.13d7ad18.chunk.js.map": "/resume/static/js/2.13d7ad18.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.ba3a33c282fb3760bbeb611d9f9d6d11.js": "/resume/precache-manifest.ba3a33c282fb3760bbeb611d9f9d6d11.js",
+    "precache-manifest.d5a7d35e2a47df04553bb9a52c52c7b3.js": "/resume/precache-manifest.d5a7d35e2a47df04553bb9a52c52c7b3.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.e680e063.chunk.css.map": "/resume/static/css/main.e680e063.chunk.css.map",
+    "static/css/main.0aba28bb.chunk.css.map": "/resume/static/css/main.0aba28bb.chunk.css.map",
     "static/media/calander.svg": "/resume/static/media/calander.76af4891.svg",
     "static/media/email.svg": "/resume/static/media/email.85188068.svg",
     "static/media/linkedin-logo.svg": "/resume/static/media/linkedin-logo.e2a3ff32.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.914ebca8.js",
     "static/js/2.13d7ad18.chunk.js",
-    "static/css/main.e680e063.chunk.css",
+    "static/css/main.0aba28bb.chunk.css",
     "static/js/main.4bdb04c0.chunk.js"
   ]
 }
