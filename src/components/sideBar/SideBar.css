@@ -157,8 +157,9 @@ h1.skill_name{
     .mini_nav .Pic{
         width: 64px;
         height: 64px;
-        background-position-y: -18px;
-        background-position-x: -10px;
+        background-position-y: -9px;
+        background-position-x: 6px;
+        background-size: 80%;
 
     }
     .mini_nav > .Informations{
