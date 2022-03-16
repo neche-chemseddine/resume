@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.0aba28bb.chunk.css",
-    "main.js": "/resume/static/js/main.366edd8f.chunk.js",
-    "main.js.map": "/resume/static/js/main.366edd8f.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.914ebca8.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.914ebca8.js.map",
-    "static/js/2.13d7ad18.chunk.js": "/resume/static/js/2.13d7ad18.chunk.js",
-    "static/js/2.13d7ad18.chunk.js.map": "/resume/static/js/2.13d7ad18.chunk.js.map",
+    "main.css": "/resume/static/css/main.4c7a54a5.chunk.css",
+    "main.js": "/resume/static/js/main.d6a8b1a4.chunk.js",
+    "main.js.map": "/resume/static/js/main.d6a8b1a4.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.dab4bd98.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.dab4bd98.js.map",
+    "static/js/2.3972df11.chunk.js": "/resume/static/js/2.3972df11.chunk.js",
+    "static/js/2.3972df11.chunk.js.map": "/resume/static/js/2.3972df11.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.7819458d10921dafef7fce2b7e6c33f6.js": "/resume/precache-manifest.7819458d10921dafef7fce2b7e6c33f6.js",
+    "precache-manifest.63f09639cd3484eeb169a33776633353.js": "/resume/precache-manifest.63f09639cd3484eeb169a33776633353.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/main.0aba28bb.chunk.css.map": "/resume/static/css/main.0aba28bb.chunk.css.map",
+    "static/css/main.4c7a54a5.chunk.css.map": "/resume/static/css/main.4c7a54a5.chunk.css.map",
     "static/media/calander.svg": "/resume/static/media/calander.76af4891.svg",
     "static/media/email.svg": "/resume/static/media/email.85188068.svg",
     "static/media/linkedin-logo.svg": "/resume/static/media/linkedin-logo.e2a3ff32.svg",
     "static/media/location.svg": "/resume/static/media/location.e5be3d53.svg",
-    "static/media/SideBar.css": "/resume/static/media/my_pic.4c7b431c.jpg",
-    "static/media/phone.svg": "/resume/static/media/phone.c2adf7c9.svg",
+    "static/media/SideBar.css": "/resume/static/media/my_pic.7e7fb9b6.jpg",
     "static/media/researchgate-logo.svg": "/resume/static/media/researchgate-logo.92d09f54.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.914ebca8.js",
-    "static/js/2.13d7ad18.chunk.js",
-    "static/css/main.0aba28bb.chunk.css",
-    "static/js/main.366edd8f.chunk.js"
+    "static/js/runtime-main.dab4bd98.js",
+    "static/js/2.3972df11.chunk.js",
+    "static/css/main.4c7a54a5.chunk.css",
+    "static/js/main.d6a8b1a4.chunk.js"
   ]
 }
