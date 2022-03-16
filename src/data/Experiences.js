@@ -10,11 +10,27 @@ function Experience(post, etablisement, duration_from, duration_to, location, de
 }
 
 let experienceList = [
+    new Experience("Développeur",
+        "CRÉDITÉO",
+        "Depuis août 2021",
+        "",
+        "Villers-lès-Nancy, France.",
+        "",
+        "PHP, Typescript ,Angular, Symfony 5, Python, Keras, Deep learning, OpenCV, Tesseract."),
+
+    new Experience("Développeur",
+        "OTODOO",
+        "De janviers 2020",
+        " à juillet 2021",
+        "Villers-lès-Nancy, France.",
+        "",
+        "Python, Keras, Deep learning, OpenCV, Tesseract."),
+
     new Experience("Stagiaire",
         "Laboratoire LORIA",
         "De mars 2019",
         " à août 2019",
-        "Vandoeuvre-lès-Nancy,Nancy, France.",
+        "Vandoeuvre-lès-Nancy, France.",
         "Conception et implémentation d’un modèle de Segmentation de flux de documents administratifs en utilisant des techniques d'apprentissage automatique.",
         "Python, Keras, Deep learning, CNN, LSTM."),
 

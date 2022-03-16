@@ -1,10 +1,10 @@
-.SideBar{
+.SideBar {
     position: fixed;
     z-index: 2;
     background-color: #241F27;
     width: 340px;
-    height:100vh;
-    padding:5px 20px 5px 10px;
+    height: 100vh;
+    padding: 5px 20px 5px 10px;
     box-sizing: border-box;
     display: grid;
     justify-items: center;
@@ -13,25 +13,25 @@
     grid-column: 1;
     grid-row: 1 / 3;
     grid-template-rows: 230px 50px auto auto;
-    justify-items: center;
     gap: 5px;
 }
 
-.Pic{
+.pic {
     width: 230px;
     height: 230px;
     border-radius: 50%;
     background-color: aliceblue;
     background-repeat: repeat;
     background-image: url('../../icons/my_pic.jpg');
-    background-size: 75%;
-    background-position-y: -30px;
-    background-position-x: 26px;
+    background-size: 112%;
+    background-position-y: -3px;
+    background-position-x: -19px;
+    grid-gap: 44px;
     gap: 44px;
 }
 
-h1.skill_name{
-        
+h1.skill_name {
+
     font-family: Roboto;
     font-style: bold;
     font-size: 16px;
@@ -39,40 +39,40 @@ h1.skill_name{
 }
 
 
-h1.skill_name{
-        
+h1.skill_name {
+
     font-family: Roboto;
-    font-style: bold;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
 }
 
-#Name{
+#Name {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
- 
-  
-    color: #FFFFFF;    
+
+
+    color: #FFFFFF;
 }
-    
-.Informations{    
-    display: grid;    
-    grid-template-columns:     20px auto; 
-    gap:5px;    
+
+.Informations {
+    display: grid;
+    grid-template-columns:     20px auto;
+    gap: 5px;
     justify-content: center;
     align-items: stretch;
     height: 100px;
-}    
-    
-.InfoIcons{    
-    color:#FFFFFF;
-    align-self: center; 
-}    
-    
-.InfoText{    
-    font-family: Roboto;    
+}
+
+.InfoIcons {
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.InfoText {
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -81,12 +81,12 @@ h1.skill_name{
     align-self: center;
 }
 
-.Container{
+.Container {
     width: 100%;
 
 }
 
-.Header{
+.Header {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -95,17 +95,17 @@ h1.skill_name{
     color: #FFFFFF;
 }
 
-.Skills{
- 
+.Skills {
+
     display: grid;
     align-items: center;
     justify-items: center;
-    gap:15px;
+    gap: 15px;
     margin-top: 10px;
 
 }
 
-.HorizontalLine{
+.HorizontalLine {
     width: 100%;
     box-sizing: border-box;
     height: 1px;
@@ -113,32 +113,40 @@ h1.skill_name{
     margin: 1px 0px;
 }
 
-.logo_container{
-    display: grid; 
+.logo_container {
+    display: grid;
     grid-template-columns: 32px 32px;
     align-content: center;
     gap: 44px;
 }
 
-h1.skill_name{
-        
+h1.skill_name {
+
     font-family: Roboto;
-    font-style: bold;
+    font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
 }
-@media screen and  (max-width: 768px){
-    .Skills{
- 
-        margin:10px 20px 0px 20px;
-    
+
+@media screen and  (max-width: 768px) {
+    .Skills {
+
+        margin: 10px 20px 0px 20px;
+
     }
-    .SideBar::-webkit-scrollbar { width: 0 !important }
-    .SideBar { overflow: -moz-scrollbars-none; }
-    .mobileNav{
+
+    .SideBar::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+    .SideBar {
+        overflow: -moz-scrollbars-none;
+    }
+
+    .mobileNav {
         padding: 5px 10px;
         z-index: 400;
-        background-color:#241F27;
+        background-color: #241F27;
         display: grid;
         grid-template-columns:100px auto;
         height: 110px;
@@ -147,37 +155,41 @@ h1.skill_name{
         width: 100%;
         box-sizing: border-box;
     }
-    .mini_nav{
+
+    .mini_nav {
         height: 76px;
         grid-template-columns: 70px auto;
         justify-items: center;
         align-items: center;
 
     }
-    .mini_nav .Pic{
+
+    .mini_nav .pic {
         width: 64px;
         height: 64px;
-        background-position-y: -9px;
-        background-position-x: 6px;
-        background-size: 80%;
+        background-position-y: -5px;
+        background-position-x: -5px;
+        background-size: 120%;
 
     }
-    .mini_nav > .Informations{
+
+    .mini_nav > .Informations {
         display: none;
     }
-    .mini_nav > #Name{
+
+    .mini_nav > #Name {
         align-self: center;
         grid-column: 2;
         grid-row: 1/3;
     }
-    
-    .SideBar{
+
+    .SideBar {
         position: relative;
-        margin-top:110px;
+        margin-top: 110px;
         background-color: #49404E;
         width: 100%;
-        height:calc(100vh - 110px);
-        padding:0px 10px;
+        height: calc(100vh - 110px);
+        padding: 0 10px;
         box-sizing: border-box;
         display: grid;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -185,12 +197,9 @@ h1.skill_name{
         grid-template-rows: auto;
         position: static;
         overflow: scroll;
-
-
-
-
     }
-    .Pic{
+
+    .pic {
         grid-column: 1;
         grid-row: 1/3;
         width: 100px;
@@ -200,24 +209,25 @@ h1.skill_name{
         border-radius: 50%;
         background-repeat: repeat;
         background-image: url('../../icons/my_pic.jpg');
-        background-size: 75%;
-        background-position-y: -14px;
-        background-position-x: 14px;
-    
+        background-size: 112%;
+        background-position-y: -1px;
+        background-position-x: -7px;
+        grid-gap: 44px;
     }
-    .Informations{
+
+    .Informations {
         grid-column: 2;
         grid-row: 2;
         display: grid;
         justify-self: start;
-        grid-template-columns: 20px auto; 
-        column-gap:0px;
-
+        grid-template-columns: 20px auto;
+        column-gap: 0;
         justify-content: center;
         align-items: center;
         height: 80px;
     }
-    .InfoText{
+
+    .InfoText {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -225,7 +235,7 @@ h1.skill_name{
         line-height: 12px;
     }
 
-    #Name{
+    #Name {
         align-self: end;
         width: 178px;
         height: 21px;
@@ -239,41 +249,43 @@ h1.skill_name{
         line-height: 21px;
     }
 
-#mail_icon{
-    width: 14px;
-    height: 11px;
-}
-#location_icon{
-    width: 10px;
-    height: 14px;
-}
-#calander_icon{
-    width: 12px;
-    height: 14px;
-}
-#phone_icon{
-    width: 9px;
-    height: 15px;
-}
-.Container{
+    #mail_icon {
+        width: 14px;
+        height: 11px;
+    }
 
-  
-}
-h1.skill_name{
+    #location_icon {
+        width: 10px;
+        height: 14px;
+    }
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    #calander_icon {
+        width: 12px;
+        height: 14px;
+    }
 
-}
- .logo_container {
-    justify-self: center;
-    align-self: start;
-}
-.Skills{
-    gap:5px;
-    margin-top: 10px;
-}
+    #phone_icon {
+        width: 9px;
+        height: 15px;
+    }
+
+    h1.skill_name {
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .logo_container {
+        justify-self: center;
+        align-self: start;
+    }
+
+    .Skills {
+        gap: 5px;
+        margin-top: 10px;
+    }
 
 
 }

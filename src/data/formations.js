@@ -10,7 +10,7 @@ function Formation(diploma, etablisement, location, duration_from, duration_to, 
 let formationList = [
     new Formation("Master apprentissage, vision et robotique.",
         "Université de Lorraine - faculté des sciences et technologies",
-        "Vandoeuvre-lès-Nancy, Nancy, France.",
+        "Vandoeuvre-lès-Nancy, France.",
         "2018",
         "2019",
         "Les objectifs du parcours “apprentissage , vision et robotique” se situent dans le contexte de l’informatique moderne orientéen vers l’apprentissage automatique, la vision par ordinateur ainsi que les notions de la robotique et les systèmes complexes."),
