@@ -27,7 +27,7 @@
 
 a.nav_links{
     text-decoration: none;
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: 900;
     font-size: 25px;
@@ -40,7 +40,7 @@ a.nav_links:hover{
 }
 a.selected{
     text-decoration: none;
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: 900;
     font-size: 30px;

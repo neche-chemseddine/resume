@@ -24,6 +24,7 @@ export default function FormationItem(props) {
             </div>
             <p className="diploma">{props.diploma}</p>
             <div className="description marginTimeline">
+                <p className="location">{props.etablisement}</p>
                 <p className="location">{props.location}</p>
                 <p className="description">{props.description}</p>
             </div>

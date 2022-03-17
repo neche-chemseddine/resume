@@ -53,12 +53,12 @@ export default function SideBar(props) {
                     <p className="Header">Compétences</p>
                     <div className="HorizontalLine"/>
                     <div className="Skills">
+                        <Skill skill_name="Angular, React, typescript, javascript" level="80"/>
                         <Skill skill_name="Python, PHP" level="90"/>
                         <Skill skill_name="Machin learning" level="90"/>
+                        <Skill skill_name="SQL et bases de données" level="85"/>
                         <Skill skill_name="Visualisation des données" level="90"/>
                         <Skill skill_name="Creation IHM (JavaFx, Qt, PyQt)" level="80"/>
-                        <Skill skill_name="Angular, React, typescript, javascript" level="80"/>
-                        <Skill skill_name="SQL et bases de données" level="85"/>
                     </div>
 
                 </div>

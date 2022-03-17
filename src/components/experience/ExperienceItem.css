@@ -5,7 +5,7 @@
 
 }
 p.etablisement{
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -13,7 +13,7 @@ p.etablisement{
     color: #000000;
 }
 p.post{
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -25,7 +25,7 @@ p.post{
 
 p.duration{
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -38,7 +38,7 @@ div.description{
 }
 p.location{
 
-font-family: Roboto;
+/*font-family: Roboto;*/
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -47,7 +47,7 @@ color: #8C898A;
 
 }
 p.description{
-font-family: Roboto;
+/*font-family: Roboto;*/
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -56,7 +56,7 @@ color: #373536;
 padding-left:10px;
 }
 p.tech_header{
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -64,7 +64,7 @@ p.tech_header{
     color: #000000;
 }
 p.techs{
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -103,7 +103,7 @@ p.techs{
 
 @media screen and (max-width:768px){
     p.techs{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -116,19 +116,19 @@ p.techs{
     .experienceItem{
         display: grid;
         justify-self: center;
-        grid-template-columns: 75px 10px 210px; 
+        grid-template-columns: 75px 25px 210px;
         column-gap: 3px;
     
     }
     p.etablisement{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
     }
     p.post{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
@@ -140,7 +140,7 @@ p.techs{
     
     p.duration{
     
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -152,7 +152,7 @@ p.techs{
     p.location{
     
 
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -160,14 +160,14 @@ p.techs{
     }
 
     p.tech_header{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
     }
     p.techs{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -205,7 +205,7 @@ p.techs{
     }
 
     p.description{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: normal;
         font-size: 12px;

@@ -32,7 +32,7 @@
 
 h1.skill_name {
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: bold;
     font-size: 16px;
     color: #FFFFFF;
@@ -41,14 +41,14 @@ h1.skill_name {
 
 h1.skill_name {
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
 }
 
 #Name {
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -72,7 +72,7 @@ h1.skill_name {
 }
 
 .InfoText {
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -87,7 +87,7 @@ h1.skill_name {
 }
 
 .Header {
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -122,7 +122,7 @@ h1.skill_name {
 
 h1.skill_name {
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-weight: bold;
     font-size: 16px;
     color: #FFFFFF;
@@ -228,7 +228,7 @@ h1.skill_name {
     }
 
     .InfoText {
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
@@ -242,7 +242,7 @@ h1.skill_name {
         left: 164px;
         top: 9px;
         justify-self: start;
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
