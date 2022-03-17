@@ -237,16 +237,10 @@ h1.skill_name {
 
     #Name {
         align-self: end;
-        width: 178px;
-        height: 21px;
-        left: 164px;
-        top: 9px;
         justify-self: start;
-        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
-        line-height: 21px;
     }
 
     #mail_icon {
