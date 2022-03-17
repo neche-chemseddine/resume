@@ -23,7 +23,6 @@ function App() {
       shrinkOn = 500,
       headerEl = document.getElementsByClassName("mobileNav")[0];
 
-    console.log(distanceY);
 
 
     if (isDesktop == false) {

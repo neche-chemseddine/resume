@@ -24,8 +24,8 @@ export default function Experience(props) {
         >
             {slideprops =>
                 <div style={slideprops} className="Experience_container snap-scroll snap-top-mob_nav">
-                    {props.isDesktop == false && <p className="Header">Expériences</p>}
-                    {props.isDesktop == false && <div className="HorizontalLine"></div>}
+                    {props.isDesktop === false && <p className="Header">Expériences</p>}
+                    {props.isDesktop === false && <div className="HorizontalLine"/>}
 
                     <div className="experience_list">
                         {experiences}

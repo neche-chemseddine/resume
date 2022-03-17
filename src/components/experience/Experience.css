@@ -30,7 +30,6 @@
     .Experience_container{
         z-index: 300;
         padding: 5px 10px;
-        height:  calc(100vh - 76px);;
         margin-top: 76px;
         position: static;
         display: block;
