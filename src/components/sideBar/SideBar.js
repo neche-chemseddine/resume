@@ -46,7 +46,7 @@ export default function SideBar(props) {
         <React.Fragment>
             {props.isDesktop === false && header}
 
-            <div className="SideBar snap-scroll">
+            <div className={`SideBar snap-scroll ${props.isDesktop ? "scrollable" : ""}`}>
                 {props.isDesktop === true && header}
 
                 <div className="Container">

@@ -17,7 +17,9 @@ body, html,#root,.App {
  
 }
 
-
+.scrollable{
+  overflow-y:auto !important;
+}
 .contentContainer{
   grid-column: 2;
   grid-row: 2;
@@ -25,6 +27,7 @@ body, html,#root,.App {
   overflow-x: auto;
   box-sizing: border-box;
 }
+
 @media screen and  (max-width: 768px){
   .App{
     display: block;
