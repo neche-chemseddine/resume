@@ -20,7 +20,7 @@ let experienceList = [
 
     new Experience("Développeur",
         "OTODOO",
-        "De janviers 2020",
+        "De janvier 2020",
         " à juillet 2021",
         "Villers-lès-Nancy, France.",
         "",
